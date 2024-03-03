@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Social Proof](https://github.com/dayronfurcain/social-proof)
+- Live Site URL: [Social Proof](https://main--cerulean-bavarois-4caddd.netlify.app/)
 
 ## My process
 
