@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Social proof section</title>
+    <link href="./output.css" rel="stylesheet" />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="relative pt-20 pb-10 min-h-screen grid justify-center bg-white gap-4 md:scale-110"
+  >
+    <picture class="absolute top-0 left-0 -z-10">
+      <source
+        media="(min-width: 1024px)"
+        srcset="images/bg-pattern-top-desktop.svg"
+      />
+      <img src="images/bg-pattern-top-mobile.svg" alt="" srcset="" />
+    </picture>
+    <picture class="absolute bottom-0 right-0 -z-10">
+      <source
+        media="(min-width: 1024px)"
+        srcset="images/bg-pattern-bottom-desktop.svg"
+      />
+      <img src="images/bg-pattern-bottom-mobile.svg" alt="" />
+    </picture>
+
+    <main class="mx-6 md:mx-16 grid place-items-center">
+      <section class="grid gap-y-12 lg:grid-cols-12">
+        <div
+          class="max-w-[412px] justify-self-center flex flex-col items-center justify-center text-center gap-y-6 lg:col-start-1 lg:col-span-6 lg:row-span-1 lg:justify-self-start lg:text-start lg:items-start"
+        >
+          <h1
+            class="max-w-[330px] text-[hsl(300,_43%,_22%)] text-[40px] leading-[34px] tracking-tighter font-bold"
+          >
+            10,000+ of our users love our products.
+          </h1>
+          <p
+            class="text-pretty text-[hsl(303,_10%,_53%)] text-[16px] font-medium"
+          >
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers are saying about our
+            services.
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col items-center gap-y-5 lg:col-start-7 lg:col-span-6 lg:row-span-1"
+        >
+          <div
+            class="w-full max-w-[445px] py-4 gap-x-9 bg-[hsl(300,_24%,_96%)] rounded-lg flex flex-col items-center justify-center gap-y-4 sm:flex-row self-start"
+          >
+            <div class="w-[116px] flex justify-between">
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+            </div>
+            <span class="text-[hsl(300,_43%,_22%)] text-[15px] font-bold">
+              Rated 5 Stars in Reviews
+            </span>
+          </div>
+
+          <div
+            class="w-full max-w-[445px] py-4 gap-x-9 bg-[hsl(300,_24%,_96%)] rounded-lg flex flex-col items-center justify-center gap-y-4 sm:flex-row self-center"
+          >
+            <div class="w-[115px] flex justify-between">
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+            </div>
+            <span class="text-[hsl(300,_43%,_22%)] text-[15px] font-bold">
+              Rated 5 Stars in Report Guru
+            </span>
+          </div>
+
+          <div
+            class="w-full max-w-[445px] py-4 gap-x-9 bg-[hsl(300,_24%,_96%)] rounded-lg flex flex-col items-center justify-center gap-y-4 sm:flex-row self-end"
+          >
+            <div class="w-[115px] flex justify-between">
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+              <img src="./images/icon-star.svg" alt="" srcset="" />
+            </div>
+            <span class="text-[hsl(300,_43%,_22%)] text-[15px] font-bold">
+              Rated 5 Stars in BestTech
+            </span>
+          </div>
+        </div>
+
+        <div
+          class="min-h-72 flex flex-col items-center gap-4 md:flex-row md:flex-wrap md:justify-center lg:col-span-full lg:row-span-1"
+        >
+          <article
+            class="px-8 py-10 rounded-xl flex flex-col gap-y-8 bg-[hsl(300,_43%,_22%)] w-[calc(375px_-_48px)] self-start"
+          >
+            <div class="flex gap-x-6 items-center">
+              <img
+                src="images/image-colton.jpg"
+                alt=""
+                class="rounded-full w-10 h-10"
+              />
+              <div class="flex flex-col">
+                <span class="text-white text-[15px] font-bold">
+                  Colton Smith
+                </span>
+                <span class="text-[hsl(333,_80%,_67%)]">Verified Buyer</span>
+              </div>
+            </div>
+            <p class="text-white text-[15px] font-medium text-pretty">
+              " We needed the same printed design as the one we had ordered a
+              week prior. Not only did they find the original order, but we also
+              received it in time. Excellent!"
+            </p>
+          </article>
+
+          <article
+            class="px-8 py-10 rounded-xl flex flex-col gap-y-8 bg-[hsl(300,_43%,_22%)] w-[calc(375px_-_48px)]"
+          >
+            <div class="flex gap-x-6 items-center">
+              <img
+                src="images/image-irene.jpg"
+                alt=""
+                class="rounded-full w-10 h-10"
+              />
+              <div class="flex flex-col">
+                <span class="text-white text-[15px] font-bold"
+                  >Irene Roberts</span
+                >
+                <span class="text-[hsl(333,_80%,_67%)]">Verified Buyer</span>
+              </div>
+            </div>
+            <p class="text-white text-[15px] font-medium text-pretty">
+              "Customer service is always excellent and very quick turn around.
+              Completely delighted with the simplicity of the purchase and the
+              speed of delivery."
+            </p>
+          </article>
+
+          <article
+            class="px-8 py-10 rounded-xl flex flex-col gap-y-8 bg-[hsl(300,_43%,_22%)] w-[calc(375px_-_48px)] self-end"
+          >
+            <div class="flex gap-x-6 items-center">
+              <img
+                src="images/image-anne.jpg"
+                alt=""
+                class="rounded-full w-10 h-10"
+              />
+              <div class="flex flex-col">
+                <span class="text-white text-[15px] font-bold"
+                  >Anne Wallace</span
+                >
+                <span class="text-[hsl(333,_80%,_67%)]">Verified Buyer</span>
+              </div>
+            </div>
+            <p class="text-white text-[15px] font-medium text-pretty">
+              " Put an order with this company and can only praise them for the
+              very high standard. Will definitely use them again and recommend
+              them to everyone!"
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="cursor-pointer"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://www.frontendmentor.io/profile/dayronfurcain"
+          target="_blank"
+          class="cursor-pointer"
+          >Dayron Furcain</a
+        >.
+      </div>
+    </footer>
+  </body>
+</html>
